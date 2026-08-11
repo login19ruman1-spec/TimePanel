@@ -1,5 +1,4 @@
-```java
-package me.purplerift.timepanel;
+`package me.purplerift.timepanel;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameRule;
@@ -64,7 +63,8 @@ public final class TimeManager {
                 timeRemainders.put(worldId, remainder);
 
                 if (ticksToAdd > 0) {
-                    world.setTime(world.getTime() + ticksToAdd);
+                    long newTime = world.getTime() + ticksToAdd;
+                    world.setTime(newTime);
                 }
             }
 
@@ -119,4 +119,3 @@ public final class TimeManager {
         timeRemainders.put(world.getUID(), 0.0);
     }
 }
-```
