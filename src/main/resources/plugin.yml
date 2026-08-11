@@ -1,0 +1,15 @@
+name: PurpleTimePanel
+version: 1.0.0
+main: me.purplerift.timepanel.PurpleTimePanel
+api-version: '1.21'
+author: PurpleRift
+description: GUI panel for controlling day/night speed per world.
+commands:
+  timepanel:
+    description: Opens the time control panel.
+    usage: /timepanel
+    aliases: [tpanel, worldtime]
+permissions:
+  purpletimes.panel:
+    description: Allows opening the time control panel.
+    default: op
