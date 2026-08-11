@@ -1,4 +1,4 @@
-`package me.purplerift.timepanel;
+package me.purplerift.timepanel;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameRule;
